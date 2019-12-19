@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_fon"
+    android:layout_height="match_parent"
+    tools:context=".profaile.LoginActivity">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/img_card_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="190dp"
+        android:textStyle="italic"
+        android:text="Durak Games"
+        android:textAppearance="@style/durak_games"
+        android:gravity="top"/>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="15dp"
+        android:textAppearance="@style/label"
+        android:lineSpacingExtra="2sp"
+        android:translationY="-0.97sp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center|left"/>
+
+    <EditText
+        android:id="@+id/et_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:inputType="textEmailAddress"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_gravity="center"
+        android:textColor="#524E4E"
+        android:layout_marginRight="155dp"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:id="@+id/et_passwor_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="32dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:onClick="onCome"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/btn_backgraund"
+        android:text="Войти"/>
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="32dp"
+        android:text="Регистрация"
+        android:textColor="#fff"
+        android:onClick="onRegister"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/btn_lines"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:onClick="forgot"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="100dp"
+        android:text="Забыли прароль?"/>
+</FrameLayout>

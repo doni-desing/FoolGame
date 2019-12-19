@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/users"
+        android:title=" "
+        android:icon="@drawable/user"/>
+
+    <item android:id="@+id/many"
+        android:title=" "
+        android:icon="@drawable/open"/>
+
+    <item android:id="@+id/week"
+        android:title=" "
+        android:icon="@drawable/lock"/>
+
+    <item android:id="@+id/money"
+        android:title=" "
+        android:icon="@drawable/money"/>
+
+</menu>

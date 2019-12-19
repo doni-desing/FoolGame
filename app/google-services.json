@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "690942240983",
+    "firebase_url": "https://card-stupet.firebaseio.com",
+    "project_id": "card-stupet",
+    "storage_bucket": "card-stupet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690942240983:android:45aa17d824b8c889b32892",
+        "android_client_info": {
+          "package_name": "com.example.cardstupet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690942240983-ka640sp29r43rlu2o7i9bgfpcj0f6b0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cardstupet",
+            "certificate_hash": "4ae3ea4bcb47f40867ea24b85dfa916a30e457a7"
+          }
+        },
+        {
+          "client_id": "690942240983-1dn5u7ud650u3ug6nfncavgtno856fhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdbY1RHX8UQxTZDuz5s40pLp8nf6MlRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690942240983-1dn5u7ud650u3ug6nfncavgtno856fhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
